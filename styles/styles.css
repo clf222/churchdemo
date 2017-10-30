@@ -1,0 +1,49 @@
+body {
+  font-size: 16px;
+  background: url(../images/small-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+@media (min-width: 550px) {
+  body {
+  background: url(../images/large-home.jpg);
+  }
+  nav ul {
+    visibility: visible;
+  }
+  nav {
+    display: table;
+    /* Rectangle: */
+background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
+box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+  }
+  nav ul {
+    text-align: center;
+    list-style: none;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: .5em 1em;
+    font-size: 1.25em;
+    font-family: 'Lato', sans-serif;
+    color: #336699;
+  }
+  .active {
+    color: #
+  }
+
+}
