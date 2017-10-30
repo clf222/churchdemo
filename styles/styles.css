@@ -3,9 +3,17 @@ body {
   background: url(../images/small-home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
 }
 
 nav ul {
+  visibility: hidden;
+}
+
+button {
+  visibility: hidden;
+}
+.tag-line {
   visibility: hidden;
 }
 
@@ -24,6 +32,7 @@ nav ul {
   }
   nav {
     display: table;
+
     /* Rectangle: */
 background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
 box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
@@ -41,9 +50,85 @@ box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
     font-size: 1.25em;
     font-family: 'Lato', sans-serif;
     color: #336699;
+    margin: 0 1em;
   }
   .active {
-    color: #
+    color: #FFFFF0;
+    /* Rectangle 3: */
+    background-image: linear-gradient(-180deg, #79B5E7 0%, #447ECA 100%);
   }
+  button {
+    visibility: visible;
+    /*padding: 1em 2em;*/
+    /* Rectangle 4: */
+    background-image: linear-gradient(-180deg, #79B5E7 0%, #447ECA 100%);
+    border: 1px solid #447ECA;
+    border-radius: 5px;
+    /* Directions: */
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    color: #FFFFF0;
+  }
+  #tag-line {
+    visibility: visible;
+    /* Rectangle 5: */
+    background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
+    box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    /* No Perfect People Al: */
+    font-family: 'GloriaHallelujah', sans-serif;
+    text-align: center;
+    width: 55vw;
+    font-size: 1.75em;
+    color: #151515;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.50);
+    margin: 10vh auto 0;
+    padding: .5em 0;
+  }
+  footer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    /* Rectangle 2: */
+    background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
+    box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    padding: 0 4em;
+
+  }
+  img.wordmark {
+    margin: 0 auto 0 0;
+    padding-left: 2em;
+    padding: 2em 0 0 0;
+    z-index: 5;
+  }
+address {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.left, .right{
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+  justify-content: center;
+  flex: .4;
+}
+.left {
+  padding-right: 2em;
+}
+.right {
+  align-self: center;
+}
+h2, h3 {
+  font-family: 'Droid Serif', serif;
+}
 
 }
