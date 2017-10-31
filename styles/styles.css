@@ -45,6 +45,14 @@ button {
 h1 {
   visibility: hidden;
 }
+i.fa.fa-map-marker {
+  visibility: visible;
+  color: #336699;
+  font-size: 4em;
+  /* : */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+  align-self: center;
+}
 footer{
   display: flex;
   flex-flow: row nowrap;
@@ -170,6 +178,9 @@ li a.active {
   color:#FFFFF0;
   background-image: linear-gradient(-180deg, #79B5E7 0%, #447ECA 100%);
 
+}
+i.fa.fa-map-marker {
+  display: none;
 }
 
   button {
