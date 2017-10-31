@@ -31,13 +31,29 @@ body.involved{
   background: url(../images/getinvolved.jpg);
   background-size: cover;
 }
+.mobile-header {
+  height: 2em;
+  display: block;
+  padding: .5em 1em;
+  background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
+  box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
 
+}
+.mobile-header p {
+  text-align: center;
+  display: inline-block;
+  margin: 0 25vw;
+  padding-bottom: .5em;
+}
+#nav-toggle {
+  margin: 0;
+}
 nav ul {
   visibility: hidden;
 }
 
 button {
-  visibility: hidden;
+  visibility: visible;
 }
 #tag-line {
   visibility: hidden;
@@ -145,8 +161,8 @@ font-size: 1em;
     margin: 0 auto;
 
     /* Rectangle: */
-background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
-box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
+    background-image: linear-gradient(-180deg, #FFFFF9 0%, #E4E4D3 100%);
+    box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
   }
   nav ul {
     text-align: center;
@@ -163,6 +179,9 @@ box-shadow: 2px 4px 4px 0 rgba(0,0,0,0.50), inset 0 1px 3px 0 rgba(0,0,0,0.50);
     color: #336699;
     text-align: center;
     /*margin: 0 1em;*/
+  }
+  .mobile-header {
+    display: none;
   }
 .active a{
     color: #FFFFF0;
@@ -238,6 +257,8 @@ i.fa.fa-map-marker {
     bottom: 0;
     left: 0;
     width: 100%;
+    height: 24vh;
+
     z-index: 1;
 
     padding: 0 2em 2em;
