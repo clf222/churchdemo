@@ -18,6 +18,19 @@ body.events {
   background: url(../images/events.jpg);
   background-size: cover;
 }
+body.services {
+  background: url(../images/services.jpg);
+  background-size: cover;
+}
+body.about {
+  background: url(../images/about.jpg);
+  background-size: cover;
+}
+body.involved{
+  background: url(../images/getinvolved.jpg);
+  background-size: cover;
+}
+
 nav ul {
   visibility: hidden;
 }
@@ -41,6 +54,7 @@ button {
   a {
     color: #151515;
     text-decoration: none;
+    padding: .5em 1em;
   }
 
   a:hover {
@@ -129,6 +143,17 @@ li a.active {
     margin: 5vh auto 0;
     padding: 0;
   }
+  .event-heading {
+    width: 20vw;
+    margin: 3vh auto 0;
+    padding:0;
+  }
+  .services-heading {
+    width: 30vw;
+    margin: 3vh auto 0;
+    padding:0;
+  }
+
   footer{
     display: flex;
     flex-flow: row nowrap;
